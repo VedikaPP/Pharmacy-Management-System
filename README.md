@@ -86,11 +86,10 @@ Install the following software on your system:
 ### 🔹 Step 4: Configure Database Connection
 1. Open the project in **NetBeans**
 2. Locate the database connection file (example: `dbconnection.jsp`)
-3. Update database credentials if required:
-```java
-String url = "jdbc:mysql://localhost:3306/pharmacy_management_system";
-String username = "root";
-String password = "";
+3. Update database credentials if required: ```java
+   String url = "jdbc:mysql://localhost:3306/pharmacy_management_system";
+   String username = "root";
+   String password = "";
 
 
 ### 🔹 Step 5: Setup Apache Tomcat in NetBeans
