@@ -1,0 +1,102 @@
+fieldset{
+    width:1500px;
+    height: 1500px;
+   border-radius: 30px;
+    background-color: coral;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../img/d22.jpg");
+  
+    background-position: center;
+    background-size: cover;
+}
+td{
+    text-decoration: none;
+    font-size: 28px;
+    text-decoration-style: solid;
+     text-indent: 5px;
+   
+}
+input{
+    width:182px;
+    height:25px;
+    border-radius: 5px;
+    outline: none;
+    text-indent: 5px;
+    font-size: large;
+    
+}
+select{
+    width:182px;
+    height:25px;
+    border-radius: 5px;
+    outline: none;
+    text-indent: 5px;
+      font-size: large; 
+}
+input[type="submit"]:hover{
+    background-color: cornflowerblue;
+      font-size: 28px;
+      height: max-content;
+    
+}
+input[type="reset"]:hover{
+    background-color: cornflowerblue;
+      font-size: 28px;
+     height: max-content;
+}
+textarea{
+    width:182px;
+    height:100px;
+    border-radius: 5px;
+    outline: none;
+    text-indent: 5px;
+    font-size: large ;
+
+}
+table{
+    line-height: 30px;
+}
+header{
+    margin-top: 0;
+   // background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/bowl.jpg");
+    background-color:activecaption;
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding:5px 20px;
+    border:1px solid ;
+   transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+  background-color: #fff;
+    color: #000;  
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
